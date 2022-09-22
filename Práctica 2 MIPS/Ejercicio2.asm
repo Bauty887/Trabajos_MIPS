@@ -1,7 +1,9 @@
 	.data
 V: 	.word 2, -4, -6
+
 res: 	.space 12
 	.text
+
 main:
 	lw $s0, V
 	lw $s1, V+4

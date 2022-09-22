@@ -1,7 +1,9 @@
 	.data
-v: 	.word 0,1,1,1,0
+V: 	.word 0,1,1,1,0
+
 res: 	.space 20
 	.text
+
 main:
 	la $t0, v
 	la $t6, res
